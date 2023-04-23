@@ -4,9 +4,9 @@ body {
 }
 
 .btn-war {
-  background-color: rgb(231, 139, 35);
+  background-color: rgb(241, 176, 47);
   border-radius: 5px;
-  box-shadow: 0 1px 4px 1px;
+  box-shadow: 0 1px 5px 0 rgba(21, 21, 21, 0.4705882353);
 }
 .btn-war:hover {
   background-color: rgb(252, 182, 102);
