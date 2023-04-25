@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
@@ -19,9 +19,9 @@
 
 
     <!-- top logo  -->
-    <div class=" bg-warning p-1">
+    <div class="header-bg p-1">
         <div class="container fs-3 d-flex justify-content-center align-items-center">
-            <img src="./images/logo favicon1.png" class="ms-5 " width="85" height="85" alt="لوگوی تئاتر شهر کرج">
+            <img src="./images/logo favicon1.png" class="ms-3 " width="85" height="85" alt="لوگوی تئاتر شهر کرج">
             www.theaterkaraj.ir
         </div>
     </div>
@@ -31,7 +31,7 @@
 
     <!-- navbar -->
     <div class="sticky-top shadow">
-        <nav class="navbar navbar-expand-lg bg-dark bg-gradient p-1 mb-1" style="--bs-bg-opacity: 0.95;">
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient p-1" style="--bs-bg-opacity: 0.95;">
             <div class="container">
                 <a class="navbar-brand link-warning fs-4" link-light data-bs-toggle="modal"
                     data-bs-target="#exampleModal" href="#">
@@ -40,9 +40,9 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">آدرس سایت تئاتر شهر کرج</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
+                                    <h5 class="modal-title " id="exampleModalLabel">آدرس سایت تئاتر شهر کرج</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     www.theaterkaraj.ir
@@ -58,13 +58,13 @@
                         class="d-inline-block align-text-center">
                     تئاتر شهر کرج
                 </a>
-                <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse me-4" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active link-light ms-4" aria-current="page" href="#">خانه</a>
+                            <a class="nav-link active link-light me-5" aria-current="page" href="#">خانه</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-light ms-4" href="https://theater.ir/">ایران تئاتر</a>
+                            <a class="nav-link link-light me-4 ms-4" href="https://theater.ir/">ایران تئاتر</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link link-light ms-4" href="#">رویداد ها</a>
@@ -96,7 +96,7 @@
 
                     <!-- bottons nav  -->
                     <div class="btn-group bg-" role="group" aria-label="Basic outlined example">
-                        <button type="button" class="btn btn-war ms-5" data-bs-toggle="modal"
+                        <button type="button" class="btn btn-war me-5" data-bs-toggle="modal"
                             data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">ثبت نام</button>
 
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -133,7 +133,7 @@
                             </div>
                         </div>
                         <div>
-                            <button type="button" class="btn btn-war ms-2" data-bs-toggle="modal"
+                            <button type="button" class="btn btn-war me-3" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">ورود </button>
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                                 aria-hidden="true">
@@ -206,9 +206,89 @@
 
 
 
-    <!-- carousel  -->
-    <div class="container border rounded py-3 mb-5">
-        <div id="carouselExampleIndicators" class="carousel slide container w-70 ">
+
+    <!-- class row  -->
+    <div class="bg-row">
+        <div class="container my-5 pt-4">
+            <div class="fs-4 text-center">
+                <b>بخش های مختلف مجموعه</b>
+                <p class="text-secondary pt-3">
+                    بخش هایی مانند: سالن اصلی، سالن های اجرای نمایش، محوطه ی حیاط و ...
+                </p>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row justify-content-between d-flex mt-5">
+                <div class="col-sm-4 col-lg-3 ">
+                    <div class="card p-2 card-row">
+                        <img src="./images/karaj-theater-VIEW-3.jpg" class="card-img-top" alt="محوطه">
+                        <div class="card-body text-center">
+                            <p class="card-text fs-6">محوطه ی خارجی مجموعه از نمای بالا</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-lg-3">
+                    <div class="card p-2 card-row">
+                        <img src="./images/karaj-theater-VIEW-11.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="card-text fs-6">فضای داخلی سالن انتظار و بلیط فروشی</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-lg-3">
+                    <div class="card p-2 card-row">
+                        <img src="./images/karaj-theater-VIEW-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="card-text fs-6"> محوطه ی داخلی رستوران و بوفه</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <div class="row justify-content-between d-flex mt-5">
+                <div class="col-sm-4 col-lg-3 ">
+                    <div class="card p-2 card-row">
+                        <img src="./images/karaj-theater-VIEW-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="card-text fs-6">محوطه ی خارجی مجموعه</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-lg-3">
+                    <div class="card p-2 card-row">
+                        <img src="./images/karaj-theater-VIEW-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="card-text fs-6"> سالن اصلی اجرای نمایش و کنسرت</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-lg-3">
+                    <div class="card p-2 card-row">
+                        <img src="./images/karaj-theater-VIEW-7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <p class="card-text fs-6">سرویس بهداشتی مجموعه</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- class row end -->
+
+
+
+
+
+    <!-- carousel2  -->
+    <div class="container mt-4">
+        <p class="text-center alert fs-4" role="alert">
+            <b>گزارش تصویری نمایش ها</b>
+        </p>
+    </div>
+    <div class="container col-5 border rounded py-3 mb-5">
+        <div id="carouselExampleIndicators" class="carousel slide container w-90 ">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -219,13 +299,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./images/karaj-theater-1.jpg" class="d-block w-100" alt="محوطه">
+                    <img src="./images/khazineh.jpg" class="d-block w-100" alt="محوطه">
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/karaj-theater-10.jpg" class="d-block w-100" alt="لابی">
+                    <img src="./images/samzodaei.jpeg" class="d-block w-100" alt="لابی">
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/karaj-theater-VIEW-4.jpg" class="d-block w-100" alt="سالن اجرا">
+                    <img src="./images/screenshot.jpeg" class="d-block w-100" alt="سالن اجرا">
                 </div>
             </div>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
@@ -240,106 +320,34 @@
             </button>
         </div>
     </div>
-    <!-- carousel end  -->
+    <!-- carousel2 end  -->
 
-
-
-
-
-    <!-- class row  -->
-    <div class="bg-row">
-        <div class="container my-5 pt-4">
-            <div class="fs-4 text-center">
-                <b>بخش های مختلف مجموعه</b>
-                <p class="text-secondary pt-3">
-                    ...بخش هایی مانند: سالن اصلی، سالن های اجرای نمایش، محوطه ی حیاط و
-                </p>
-            </div>
-        </div>
-        <div class="container mt-5">
-            <div class="row justify-content-between d-flex mt-5">
-                <div class="col-sm-4 col-lg-3 ">
-                    <div class="card p-2">
-                        <img src="./images/karaj-theater-VIEW-3.jpg" class="card-img-top" alt="محوطه">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-3">
-                    <div class="card p-2" style="width: 20rem;">
-                        <img src="./images/karaj-theater-VIEW-11.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-3">
-                    <div class="card p-2" style="width: 20rem;">
-                        <img src="./images/karaj-theater-VIEW-5.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container mb-5">
-            <div class="row justify-content-between d-flex mt-5">
-                <div class="col-sm-4 col-lg-3 ">
-                    <div class="card p-2" style="width: 20rem;">
-                        <img src="./images/karaj-theater-VIEW-2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-3">
-                    <div class="card p-2" style="width: 20rem;">
-                        <img src="./images/karaj-theater-VIEW-4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-3">
-                    <div class="card p-2" style="width: 20rem;">
-                        <img src="./images/karaj-theater-VIEW-7.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- class row end -->
 
 
 
 
     <!-- footer  -->
-    <div class="bg-dark py-5">
-        <div class="container text-white py-5">
-            .تمامی حقوق برای انجمن هنرهای نمایشی ایران محفوظ است ©
-
+    <div class="bg-dark p-4">
+        <div class="container my-5">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-6 text-white mt-5 fs-5 ">
+                    <p> © تمامی حقوق برای انجمن هنرهای نمایشی ایران محفوظ است .</p>
+                    <img src="./images/logo-anjoman0.png" width="150" alt="لوگو انجمن هنرهای نمایشی">
+                </div>
+                <div class="col-6 col-lg-5 offset-lg-1 fs-6 mb-3">
+                    <ul class="list-unstyled ">
+                        <li class="mb-2 ">
+                            <a class="nav-link link-light ms-4 before-x" href="#">ارتباط با ما</a>
+                        </li>
+                        <li class="mb-2">
+                            <a class="nav-link link-light ms-4 before-z" href="#">صفحه تلگرام</a>
+                        </li>
+                        <li class="mb-2">
+                            <a class="nav-link link-light ms-4 before-w" href="#">صفحه اینستاگرام</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
     <!-- footer end -->

@@ -1,3 +1,13 @@
 @mixin btn-style{background-color: $orange;
     border-radius: 5px;
     box-shadow: 0 1px 5px 0 #15151578;}
+
+
+@mixin card-row{background-color: $orange;
+        width: 20rem;
+        height: 22rem;}
+
+        
+@mixin alert{background-color: $grey;
+    padding: 5;
+    text-align: center;}
