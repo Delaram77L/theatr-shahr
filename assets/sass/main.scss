@@ -3,7 +3,7 @@
 
 
 
-.header-bg{background-color: rgb(242, 182, 60);}
+.header-bg{background-color:$orange}
  
 
 .btn-war{@include btn-style();
@@ -32,3 +32,21 @@
 .before-w{
 &::before{content: url(../../images/instagram1.png);
     margin-left: 20px;}}
+
+
+.card-text-mor{
+    text-decoration: none;}
+
+    
+.card-title{
+    font-family: "b-nazanin";
+
+    .card-body{
+        height: 360px;
+    }
+
+    &-span{
+    font-family: "b-nazanin";
+
+    }
+}

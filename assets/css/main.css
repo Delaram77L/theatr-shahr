@@ -2,6 +2,10 @@
   font-family: "my-font";
   src: url(../../FONTS/fonts/font-farsi-web/font-farsi-web/font/BTitrBold.woff);
 }
+@font-face {
+  font-family: "b-nazanin";
+  src: url(../../FONTS/fonts/font-farsi-web/font-farsi-web/font/BNazanin.woff);
+}
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +26,7 @@
 }
 
 .bg-row {
-  background-color: #f5f5f5;
+  background-color: #ebebeb;
 }
 
 .card-row {
@@ -32,7 +36,7 @@
 }
 
 .alert {
-  background-color: #f5f5f5;
+  background-color: #ebebeb;
   padding: 5;
   text-align: center;
 }
@@ -50,6 +54,20 @@
 .before-w::before {
   content: url(../../images/instagram1.png);
   margin-left: 20px;
+}
+
+.card-text-mor {
+  text-decoration: none;
+}
+
+.card-title {
+  font-family: "b-nazanin";
+}
+.card-title .card-body {
+  height: 360px;
+}
+.card-title-span {
+  font-family: "b-nazanin";
 }
 
 /*# sourceMappingURL=main.css.map */
