@@ -6,10 +6,14 @@
   font-family: "b-nazanin";
   src: url(../../FONTS/fonts/font-farsi-web/font-farsi-web/font/BNazanin.woff);
 }
+@font-face {
+  font-family: "yekanWeb";
+  src: url(../../FONTS/fonts/font-farsi-web/font-farsi-web/font/BYekanWeb.woff);
+}
 * {
   margin: 0;
   padding: 0;
-  font-family: "my-font";
+  font-family: "yekanWeb";
 }
 
 .header-bg {
@@ -23,6 +27,7 @@
 }
 .btn-war:hover {
   background-color: rgb(249, 200, 104);
+  transition: 0.5s;
 }
 
 .bg-row {

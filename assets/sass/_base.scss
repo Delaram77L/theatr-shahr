@@ -1,4 +1,11 @@
 
+$orange:#ffbf00; 
+
+$yellow: #fef8e4;
+
+$grey:#eeeeee;
+
+
 @font-face {
     font-family: "my-font";
     src: url(../../FONTS/fonts/font-farsi-web/font-farsi-web/font/BTitrBold.woff);}
@@ -6,6 +13,10 @@
 @font-face {
     font-family: "b-nazanin";
     src: url(../../FONTS/fonts/font-farsi-web/font-farsi-web/font/BNazanin.woff);}
+
+@font-face {
+    font-family: "yekanWeb";
+    src: url(../../FONTS/fonts/font-farsi-web/font-farsi-web/font/BYekanWeb.woff);}
 
 
 @mixin btn-style{background-color: $orange;
@@ -25,6 +36,6 @@
 
 *{margin: 0;
     padding: 0;
-    font-family: "my-font"}
+    font-family: "yekanWeb"}
 
     
