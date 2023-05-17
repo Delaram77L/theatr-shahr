@@ -13,11 +13,11 @@
 }
 
 .header-bg {
-  background-color: rgb(242, 182, 60);
+  background-color: #ffbf00;
 }
 
 .btn-war {
-  background-color: rgb(242, 182, 60);
+  background-color: #ffbf00;
   border-radius: 5px;
   box-shadow: 0 1px 5px 0 rgba(21, 21, 21, 0.4705882353);
 }
@@ -26,17 +26,17 @@
 }
 
 .bg-row {
-  background-color: #ebebeb;
+  background-color: #eeeeee;
 }
 
 .card-row {
-  background-color: rgb(242, 182, 60);
+  background-color: #ffbf00;
   width: 20rem;
   height: 22rem;
 }
 
 .alert {
-  background-color: #ebebeb;
+  background-color: #eeeeee;
   padding: 5;
   text-align: center;
 }
@@ -68,6 +68,18 @@
 }
 .card-title-span {
   font-family: "b-nazanin";
+}
+
+.col-contact {
+  background-color: #fef8e4;
+}
+
+.back-to-top {
+  display: flex;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=main.css.map */

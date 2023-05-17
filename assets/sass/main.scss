@@ -6,7 +6,7 @@
 .header-bg{background-color:$orange}
  
 
-.btn-war{@include btn-style();
+.btn-war{@include btn-style;
 &:hover{background-color: rgb(249, 200, 104);}}
 
 
@@ -50,3 +50,18 @@
 
     }
 }
+
+
+.col-contact{
+    background-color: $yellow;
+}
+
+
+.back-to-top{
+    display: flex;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    opacity: .8;}
+
+
