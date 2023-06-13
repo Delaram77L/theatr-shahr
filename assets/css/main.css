@@ -16,6 +16,10 @@
   font-family: "yekanWeb";
 }
 
+.section {
+  border: 1px solid #CCC !important;
+}
+
 .header-bg {
   background-color: #ffbf00;
 }
@@ -30,12 +34,16 @@
   transition: 0.5s;
 }
 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 .bg-row {
   background-color: #eeeeee;
 }
 
 .card-row {
-  background-color: #ffbf00;
+  background-color: rgb(249, 200, 104);
   width: 20rem;
   height: 22rem;
 }
