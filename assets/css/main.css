@@ -20,6 +20,14 @@
   border: 1px solid #CCC !important;
 }
 
+.accordion div span {
+  background-color: #eeeeee;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  padding: 15px;
+}
+
 .header-bg {
   background-color: #ffbf00;
 }
@@ -44,8 +52,8 @@
 
 .card-row {
   background-color: rgb(249, 200, 104);
-  width: 20rem;
-  height: 22rem;
+  width: 18rem;
+  height: 18rem;
 }
 
 .alert {

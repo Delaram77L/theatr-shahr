@@ -27,8 +27,9 @@ $grey:#eeeeee;
 
 
 @mixin card-row{background-color: $white-orange;
-        width: 20rem;
-        height: 22rem;}
+        width: 18rem;
+        height: 18rem;
+    }
 
         
 @mixin alert{background-color: $grey;
@@ -43,3 +44,4 @@ $grey:#eeeeee;
     
 .section{
     border: 1px solid #CCC !important;}
+
