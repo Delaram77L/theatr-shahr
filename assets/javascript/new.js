@@ -1,4 +1,3 @@
-
 // online & offline
 let el = document.createElement('div');
 document.getElementById("logotitr").append(el);
@@ -16,6 +15,4 @@ window.addEventListener("online", (event) => {
   el.className = "alert";
   el.classList.add("alert-success");
   el.style.backgroundColor = '#b2f6d2';
-  });           
-
-
+  });
