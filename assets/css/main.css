@@ -36,6 +36,24 @@
   padding: 15px;
   font-size: 20px;
 }
+.accordion1 div span::after {
+  content: "+";
+  float: left;
+  margin-left: 10px;
+}
+.accordion1 div span:hover {
+  background-color: rgb(249, 200, 104);
+}
+.accordion1 div div {
+  padding: 13px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  display: none;
+}
+
+.accordion1 > div.show > div {
+  display: block;
+}
 
 .header-bg {
   background-color: #ffbf00;

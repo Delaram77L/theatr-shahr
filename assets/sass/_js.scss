@@ -12,7 +12,7 @@
     }
 }
 
-
+//accordion
 .accordion1{
     & div{
         & span{
@@ -23,7 +23,26 @@
             padding: 15px;
             font-size: 20px;
 
-            
+            &::after{
+                // unicode plus search
+                content: "\002b";
+                float: left;
+                margin-left: 10px;
+            }
+
+            &:hover{
+                background-color: $white-orange;
+            }
+        }
+        & div{
+            padding: 13px;
+            border-right: 1px solid $grey;
+            border-left: 1px solid $grey;
+            display: none;
         }
     }
+}
+
+.accordion1 > div.show >div{
+    display: block;
 }
