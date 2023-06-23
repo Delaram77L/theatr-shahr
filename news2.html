@@ -33,31 +33,13 @@
         <nav class="navbar navbar-expand-lg bg-dark bg-gradient p-1" style="--bs-bg-opacity: 0.95;">
             <div class="container">
                 <button class="navbar-toggler btn-war" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand link-warning fs-4" link-light data-bs-toggle="modal"
-                    data-bs-target="#exampleModal" href="#">
-                    <div class="modal fade text-dark" id="exampleModal" tabindex="-1"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title " id="exampleModalLabel">آدرس سایت تئاتر شهر کرج</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    www.theaterkaraj.ir
-                                </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
-                                    <button class="btn btn-war">کپی لینک</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <a class="navbar-brand link-warning fs-4" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    href="#">
+
                     <img src="./images/logo asli.png" alt="Logo" width="85" height="85"
                         class="d-inline-block align-text-center">
                     تئاتر شهر کرج
@@ -98,85 +80,68 @@
                         </li>
                     </ul>
 
-                    <!-- start bottons nav  -->
-                    <div class="btn" style="display: flex;" aria-label="Basic outlined example">
-                        <button type="button" class="btn btn-war" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal1">
-                            ثبت نام
-                        </button>
-                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel1">فرم ثبت نام در سایت</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form>
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">آدرس ایمیل:</label>
-                                                <input type="text" class="form-control" id="recipient-name">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">نام کاربری:</label>
-                                                <input type="text" class="form-control" id="recipient-name">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label"> رمز عبور:</label>
-                                                <input type="text" class="form-control" id="recipient-name">
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-war"
-                                            data-bs-dismiss="modal">انصراف</button>
-                                        <button type="button" class="btn btn-war">ثبت نام</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <button type="button" class="btn me-3 btn-war" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal2" data-bs-whatever="@getbootstrap">ورود </button>
-                            <div class="modal fade" id="exampleModal2" tabindex="-1"
-                                aria-labelledby="exampleModalLabel2" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel2">ورود به پنل کاربری</h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <form>
-                                                <div class="mb-3">
-                                                    <label for="recipient-name" class="col-form-label">ایمیل یا نام
-                                                        کاربری:</label>
-                                                    <input type="text" class="form-control" id="recipient-name">
-                                                </div>
-                                                <div class="mb-3">
-                                                    <label for="recipient-name" class="col-form-label">رمز عبور:</label>
-                                                    <input type="text" class="form-control" id="recipient-name">
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-war"> تائید</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>ُ
+                    <!-- bottons nav  -->
+                    <div class="btn d-fle" aria-label="Basic outlined example">
+                        <a href="./login.html" class="btn btn-war text-dark"
+                            style="text-decoration:none; display:inline-block;">ثبت نام</a>
                     </div>
-                    <!-- end bottons nav  -->
-
+                    <div>
+                        <button type="button" class="btn btn-war" data-bs-toggle="modal" data-bs-target="#exampleModal2"
+                            data-bs-whatever="@getbootstrap">ورود </button>
+                    </div>ُ
                 </div>
             </div>
-        </nav>
+    </div>
+    </nav>
     </div>
 
+
+    <!-- modals navbar -->
+    <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header ">
+                    <h5 class="modal-title " id="exampleModalLabel">آدرس سایت تئاتر شهر کرج</h5>
+                    <button class="btn-close ms-1" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body fs-4">
+                    <b id="copy-text">www.theaterkaraj.ir</b>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-war" data-bs-dismiss="modal">بستن</button>
+                    <button class="btn btn-war" id="copy-link">کپی لینک</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel2">ورود به پنل کاربری</h1>
+                    <button type="button" class="btn-close ms-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">ایمیل یا نام
+                                کاربری:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">رمز عبور:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-war"> تائید</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- news -->
     <section class="container section">
@@ -185,31 +150,31 @@
                 <b>
                     «مکبث زار»؛ اثری باشکوه، جادویی و پر از زیبایی محض است
                 </b> <br><br>
-                نویسنده و کارگردان : ابراهیم پشت‌کوهی 
+                نویسنده و کارگردان : ابراهیم پشت‌کوهی
                 <br><br>
-                بازیگران: 
+                بازیگران:
                 شهروز ‌دل ‌افکار
-                ، 
+                ،
                 گاتا ‌عابدی
-                ، 
+                ،
                 محمدهادی ‌عطایی
-                ، 
+                ،
                 یاشار ‌نادری
-                ، 
+                ،
                 سعید ‌برجعلی
-                ، 
+                ،
                 فهیمه ‌موسوی ‌نیارکی
-                ، 
+                ،
                 رضا ‌سلیمی
-                ، 
+                ،
                 رضا ‌جهانگیری
-                ، 
+                ،
                 سحر ‌عبدالملکی
-                ، صابر رضایی، 
+                ، صابر رضایی،
                 متین ‌مکاری ‌مقدم
-                ، 
+                ،
                 جواد ‌امیرپور <br>
-                
+
                 <br>
                 محمدهادی عطایی عضو جدید گروه نمایشی «مکبث زار» که در سه نقش متفاوت در این اثر به ایفای نقش می‌پردازد،
                 گفت: «من سه نقش جاشو، ملکم پسر دانکن و یکی از بزرگان شهر را در «مکبث زار» بازی می‌کنم. با وجود اهمیتی که

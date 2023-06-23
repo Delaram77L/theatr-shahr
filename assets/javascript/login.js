@@ -27,18 +27,7 @@ window.addEventListener("online", (event) => {
 
 
 
-//accordion
-// let accordion1 = document.getElementsByClassName('accordion1');
-
-// Array.from(accordion1.children).forEach(wrapper => {
-//   wrapper.getElementsByTagName('span').addEventListener('click', e => {
-//     let span = e.target;
-//     let wrapper = span.parentElement;
-//     wrapper.classList.toggle('show');
-//   })
-// })
-
-
+//copy-link
 const copyLink = document.getElementById('copy-link');
 copyLink.addEventListener('click', ()=>{
   let text = document.getElementById('copy-text');
