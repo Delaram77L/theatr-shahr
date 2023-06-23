@@ -39,6 +39,8 @@ window.addEventListener("online", (event) => {
 // })
 
 
+
+//copy-link
 const copyLink = document.getElementById('copy-link');
 copyLink.addEventListener('click', ()=>{
   let text = document.getElementById('copy-text');
