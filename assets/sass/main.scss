@@ -78,16 +78,16 @@
 
 
 //back to top
-.back-to-top{
+.scroll{
     display: flex;
     position: fixed;
     right: 25px;
     bottom: 25px;
     opacity: 0;
-    transition: opacity .8s;
+    transition: opacity .7s;
 }
 
-.back-to-top.show{
+.scroll.show{
     opacity: .8;
 }
 
