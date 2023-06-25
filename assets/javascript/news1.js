@@ -16,3 +16,11 @@ window.addEventListener("online", (event) => {
   el.classList.add("alert-success");
   el.style.backgroundColor = '#b2f6d2';
   });
+
+
+  //copy-link
+const copyLink = document.getElementById('copy-link');
+copyLink.addEventListener('click', ()=>{
+  let text = document.getElementById('copy-text');
+  navigator.clipboard.writeText(text.innerHTML);
+})

@@ -156,6 +156,9 @@
   border-radius: 6%;
   border: 2px solid #ffbf00;
 }
+.formbox h1 {
+  font-family: "my-font";
+}
 .formbox input {
   border: 1px solid #ffbf00;
   border-radius: 40px;
@@ -187,7 +190,6 @@
 }
 .formbox button:hover {
   background-color: rgba(125, 236, 100, 0.5);
-  border: 2px solid rgb(125, 236, 100);
   width: 180px;
   transition: 0.25s;
 }

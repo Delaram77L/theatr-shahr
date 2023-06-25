@@ -27,7 +27,7 @@ window.addEventListener("online", (event) => {
 
 
 
-//accordion
+//accordion1
 // let accordion1 = document.getElementsByClassName('accordion1');
 
 // Array.from(accordion1.children).forEach(wrapper => {
