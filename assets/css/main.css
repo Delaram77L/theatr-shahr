@@ -55,6 +55,10 @@
   display: block;
 }
 
+.dropdownmenu li :active {
+  background-color: #ffbf00;
+}
+
 .header-bg {
   background-color: #ffbf00;
 }
@@ -155,7 +159,7 @@
   text-align: center;
   width: 510px;
   height: auto;
-  background-color: #fef8e4;
+  background-color: rgb(255, 254, 249);
   border-radius: 6%;
   border: 2px solid #ffbf00;
 }

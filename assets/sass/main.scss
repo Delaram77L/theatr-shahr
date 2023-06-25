@@ -2,14 +2,25 @@
 @import "./js";
 
 
+.dropdownmenu{
+    & li{
+
+        & :active{
+            background-color: $orange;
+        }
+}}
+
 
 
 .header-bg{background-color:$orange}
  
 
 .btn-war{@include btn-style;
-&:hover{background-color: rgb(249, 200, 104);
-    transition: .5s;}}
+
+    &:hover{
+        background-color: rgb(249, 200, 104);
+        transition: .5s;}
+}
 
 
 .navbar-toggler-icon{
@@ -22,6 +33,7 @@
 
 
 .card-row{@include card-row();
+
     &:hover{
         box-shadow: 0 5px 15px 5px rgb(139, 139, 139);
     }
@@ -99,7 +111,7 @@
     text-align: center;
     width: 510px;
     height: auto;
-    background-color: $yellow;
+    background-color: rgb(255, 254, 249);
     border-radius: 6%;
     border: 2px solid $orange;
 
