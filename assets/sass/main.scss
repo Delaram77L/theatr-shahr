@@ -2,6 +2,26 @@
 @import "./js";
 
 
+//General
+.alert{@include alert();}
+
+
+.section{
+    border: 1px solid #CCC !important;}
+
+    
+.btn-war{@include btn-style;
+
+    &:hover{
+        background-color: rgb(249, 200, 104);
+        transition: .5s;}}
+
+
+// top logo
+.header-bg{background-color:$orange}
+
+
+//dropdown
 .dropdownmenu{
     & li{
 
@@ -11,23 +31,14 @@
 }}
 
 
-.header-bg{background-color:$orange}
- 
-
-.btn-war{@include btn-style;
-
-    &:hover{
-        background-color: rgb(249, 200, 104);
-        transition: .5s;}
-}
-
-
+// start navbar
 .navbar-toggler-icon{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50'height='50' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round'stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 
 
+// class row
 .bg-row{background-color: $grey;}
 
 
@@ -39,22 +50,17 @@
 }
 
 
-.alert{@include alert();}
+
+// start contact
+.col-contact{
+    background-color: $yellow;}
 
 
-.before-x{
-&::before{content: url(../../images/telephone1.png);
-    margin-left: 20px;}}
 
-
-.before-z{
-&::before{content: url(../../images/telegram1.png);
-    margin-left: 20px;}}
-
-.before-w{
-&::before{content: url(../../images/instagram1.png);
-    margin-left: 20px;}}
-
+// start news
+.card-p{
+    height: 270px;
+}
 
 .card-text-mor{
     text-decoration: none;}
@@ -70,26 +76,39 @@
     font-family: "b-nazanin";}}
 
 
-.col-contact{
-    background-color: $yellow;}
 
-
+//back to top
 .back-to-top{
     display: flex;
     position: fixed;
-    right: 15px;
-    bottom: 15px;
-    opacity: .8;}
+    right: 25px;
+    bottom: 25px;
+    opacity: 0;
+    transition: opacity .8s;
+}
 
-
-.card-p{
-    height: 270px;
+.back-to-top.show{
+    opacity: .8;
 }
 
 
+// footer
+.before-x{
+    &::before{content: url(../../images/telephone1.png);
+        margin-left: 20px;}}
+    
+    
+    .before-z{
+    &::before{content: url(../../images/telegram1.png);
+        margin-left: 20px;}}
+    
+    .before-w{
+    &::before{content: url(../../images/instagram1.png);
+        margin-left: 20px;}}
+    
 
 
-
+// -------------------------------------------------------------------------------
 //login page
 .container-f{
     width: 100%;

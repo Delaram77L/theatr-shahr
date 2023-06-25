@@ -1,4 +1,5 @@
 
+//colors
 $orange:#ffbf00; 
 
 $white-orange:rgb(249, 200, 104);
@@ -8,6 +9,7 @@ $yellow: #fef8e4;
 $grey:#eeeeee;
 
 
+//fonts
 @font-face {
     font-family: "my-font";
     src: url(../../FONTS/fonts/font-farsi-web/font-farsi-web/font/BTitrBold.woff);}
@@ -21,6 +23,7 @@ $grey:#eeeeee;
     src: url(../../FONTS/fonts/font-farsi-web/font-farsi-web/font/BYekanWeb.woff);}
 
 
+//general mixins
 @mixin btn-style{background-color: $orange;
     border-radius: 5px;
     box-shadow: 0 1px 5px 0 #15151578;}
@@ -37,11 +40,11 @@ $grey:#eeeeee;
     text-align: center;}
 
 
+//body
 *{margin: 0;
     padding: 0;
     font-family: "yekanWeb";}
 
     
-.section{
-    border: 1px solid #CCC !important;}
+
 

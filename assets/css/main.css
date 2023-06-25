@@ -16,10 +16,6 @@
   font-family: "yekanWeb";
 }
 
-.section {
-  border: 1px solid #CCC !important;
-}
-
 .accordion div span {
   text-align: right;
   display: block;
@@ -55,12 +51,14 @@
   display: block;
 }
 
-.dropdownmenu li :active {
-  background-color: #ffbf00;
+.alert {
+  background-color: #eeeeee;
+  padding: 5;
+  text-align: center;
 }
 
-.header-bg {
-  background-color: #ffbf00;
+.section {
+  border: 1px solid #CCC !important;
 }
 
 .btn-war {
@@ -73,8 +71,16 @@
   transition: 0.5s;
 }
 
+.header-bg {
+  background-color: #ffbf00;
+}
+
+.dropdownmenu li :active {
+  background-color: #ffbf00;
+}
+
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50'height='50' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round'stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .bg-row {
@@ -90,25 +96,12 @@
   box-shadow: 0 5px 15px 5px rgb(139, 139, 139);
 }
 
-.alert {
-  background-color: #eeeeee;
-  padding: 5;
-  text-align: center;
+.col-contact {
+  background-color: #fef8e4;
 }
 
-.before-x::before {
-  content: url(../../images/telephone1.png);
-  margin-left: 20px;
-}
-
-.before-z::before {
-  content: url(../../images/telegram1.png);
-  margin-left: 20px;
-}
-
-.before-w::before {
-  content: url(../../images/instagram1.png);
-  margin-left: 20px;
+.card-p {
+  height: 270px;
 }
 
 .card-text-mor {
@@ -125,20 +118,32 @@
   font-family: "b-nazanin";
 }
 
-.col-contact {
-  background-color: #fef8e4;
-}
-
 .back-to-top {
   display: flex;
   position: fixed;
-  right: 15px;
-  bottom: 15px;
+  right: 25px;
+  bottom: 25px;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+.back-to-top.show {
   opacity: 0.8;
 }
 
-.card-p {
-  height: 270px;
+.before-x::before {
+  content: url(../../images/telephone1.png);
+  margin-left: 20px;
+}
+
+.before-z::before {
+  content: url(../../images/telegram1.png);
+  margin-left: 20px;
+}
+
+.before-w::before {
+  content: url(../../images/instagram1.png);
+  margin-left: 20px;
 }
 
 .container-f {
