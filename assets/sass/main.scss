@@ -21,7 +21,11 @@
 .bg-row{background-color: $grey;}
 
 
-.card-row{@include card-row();}
+.card-row{@include card-row();
+    &:hover{
+        box-shadow: 0 5px 15px 5px rgb(139, 139, 139);
+    }
+}
 
 
 .alert{@include alert();}
@@ -84,6 +88,7 @@
     background-size: cover;
     font-family: "b-nazanin";
 }
+
 
 .formbox{
     position: absolute;
