@@ -29,10 +29,29 @@ window.addEventListener("online", (event) => {
 
 //copy-link
 const copyLink = document.getElementById('copy-link');
-copyLink.addEventListener('click', ()=>{
+copyLink.addEventListener('click', () => {
   let text = document.getElementById('copy-text');
   navigator.clipboard.writeText(text.innerHTML);
 })
 
 
-//
+
+//login form
+let form = document.querySelector('.formbox');
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+})
+//userpattern => up ??????????????????????????????????
+let up = /^[a-zA-Z][\w._]{5,14}$/;
+
+form.name.email.addEventListener('keyup', e => {
+  if (up.test(e.target.value)) {
+    e.target.classList.add('is-valid');
+    e.target.classList.remove('is-invalid');
+  } else {
+    e.target.classList.add('is-invalid');
+  }
+})
+
+
