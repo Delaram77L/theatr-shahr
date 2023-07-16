@@ -43,15 +43,17 @@ form.addEventListener('submit', e => {
   e.preventDefault();
 })
 //userpattern => up ??????????????????????????????????
-let up = /^[a-zA-Z][\w._]{5,14}$/;
+// let up = /^[a-zA-Z][\w._]{5,14}$/;
 
-form.name.email.addEventListener('keyup', e => {
-  if (up.test(e.target.value)) {
-    e.target.classList.add('is-valid');
-    e.target.classList.remove('is-invalid');
-  } else {
-    e.target.classList.add('is-invalid');
-  }
-})
+// form.name.addEventListener('keyup', e => {
+//   if (up.test(e.target.value)) {
+//     e.target.classList.add('is-valid');
+//     e.target.classList.remove('is-invalid');
+//   } else {
+//     e.target.classList.add('is-invalid');
+//   }
+// })
 
 
+
+//local storage
