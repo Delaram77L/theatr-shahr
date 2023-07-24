@@ -135,19 +135,22 @@
         </div>
     </div>
 
-    
+
     <!-- login form ????????????????????????????-->
     <section class="container-f">
         <div class="container">
-            <form class="formbox">
+            <form id="form" class="formbox">
                 <h1 class="fs-2">فرم ثبت نام</h1>
                 <hr><br>
-                <input id="name" type="text" placeholder="نام و نام خانوادگی">
-                <input id="email" type="text" placeholder="آدرس ایمیل">
-                <input id="username" type="text" placeholder="نام کاربری">
-                <input id="password" type="text" placeholder="گذرواژ">
+                <input id="name" type="text" placeholder="نام و نام خانوادگی" required>
+                <input id="email" type="text" placeholder="آدرس ایمیل" required>
+                <input id="username" type="text" placeholder="نام کاربری" required>
+                <input id="password" type="text" placeholder="گذرواژ" required>
                 <br>
-                <button class="btn submit">ثبت مشخصات</button>
+                <button id="submit" class="btn submit">ثبت مشخصات</button>
             </form>
+        </div>
+        <div>
+            <h1 id="h1"></h1>
         </div>
     </section>
