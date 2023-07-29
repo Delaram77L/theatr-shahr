@@ -14,6 +14,7 @@ window.addEventListener("offline", (event) => {
   }, 3000);
 });
 
+
 window.addEventListener("online", (event) => {
   el.style.display = 'block';
   el.textContent = "اینترنت شما وصل شد";
@@ -36,14 +37,6 @@ copyLink.addEventListener('click', () => {
 
 
 
-//login form
-let form = document.querySelector('.formbox');
-
-form.addEventListener('submit', e => {
-  e.preventDefault();
-})
-
-
 
 //userpattern => up ??????????????????????????????????
 // let up = /^[a-zA-Z][\w._]{5,14}$/;
@@ -60,24 +53,24 @@ form.addEventListener('submit', e => {
 
 
 //local storage
-const name = document.getElementById('name');
+const lName = document.getElementById('name');
 const username = document.getElementById('username');
 const password = document.getElementById('password');
 const submit = document.getElementById('submit');
 const formbox = document.getElementById('form');
 
 
-// ???????????????????????
 formbox.addEventListener('submit', (e) => {
-  e.preventDefault(e);
+  e.preventDefault();
+  const h1 = document.getElementById('h1');
+
+  if (lName.value !== '') {
+    h1.innerText = `${lName.value} عزیز ، خوش آمدی`
+  }})
+
+submit.addEventListener('click', () => {
+  localStorage.setItem('name', JSON.stringify(lName.value));
+  localStorage.setItem('username', JSON.stringify(username.value));
 })
 
-submit.addEventListener('click', (e) => {
-  localStorage.setItem('username', 'Deli');
-  localStorage.setItem('password', '0311848141');
-})
 
-const h1 = document.getElementById('h1');
-const firstName = localStorage.getItem('name');
-
-firstName ? (h1.innertext = `${firstName} عزیز ، خوش آمدی`) : (h1.innerText = 'مشخصات وارد نشده');

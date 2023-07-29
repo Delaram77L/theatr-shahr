@@ -151,7 +151,7 @@
   position: absolute;
   transform: translate(50%, -75%);
   padding: 100px;
-  top: 50%;
+  top: 55%;
   right: 50%;
   text-align: center;
   width: 510px;
@@ -200,14 +200,11 @@
 
 .h1-login {
   display: flex;
-  position: fixed;
-  right: 30px;
-  top: 200px;
   font-size: 20px;
   border-radius: 10px;
   z-index: 10;
   justify-content: center;
-  padding: 15px;
+  padding: 20px;
   background-color: #ffbf00;
   margin-top: 10px;
 }
