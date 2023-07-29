@@ -42,6 +42,9 @@ let form = document.querySelector('.formbox');
 form.addEventListener('submit', e => {
   e.preventDefault();
 })
+
+
+
 //userpattern => up ??????????????????????????????????
 // let up = /^[a-zA-Z][\w._]{5,14}$/;
 
@@ -58,24 +61,23 @@ form.addEventListener('submit', e => {
 
 //local storage
 const name = document.getElementById('name');
-const email = document.getElementById('email');
 const username = document.getElementById('username');
 const password = document.getElementById('password');
 const submit = document.getElementById('submit');
 const formbox = document.getElementById('form');
 
-formbox.addEventListener('submit', ()=>{
-  e.preventDefault();
+
+// ???????????????????????
+formbox.addEventListener('submit', (e) => {
+  e.preventDefault(e);
 })
 
-submit.addEventListener('click', ()=>{
-  localStorage.setItem('name', input.value);
-  localStorage.setItem('email', input.value);
-  localStorage.setItem('username', input.value);
-  localStorage.setItem('password', input.value);
-
+submit.addEventListener('click', (e) => {
+  localStorage.setItem('username', 'Deli');
+  localStorage.setItem('password', '0311848141');
 })
 
 const h1 = document.getElementById('h1');
-const firstName=localStorage.getItem('name');
-firstName ? (h1.innertext= `wellcome ${firstName}`) : (h1.innerText='nobody to welcome');
+const firstName = localStorage.getItem('name');
+
+firstName ? (h1.innertext = `${firstName} عزیز ، خوش آمدی`) : (h1.innerText = 'مشخصات وارد نشده');
