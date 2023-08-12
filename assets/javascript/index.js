@@ -53,7 +53,7 @@ copyLink.addEventListener('click', ()=>{
 let scroll = document.querySelector('.scroll');
 
 window.addEventListener('scroll', e =>{
-  if(window.scrollY > 300){
+  if(window.scrollY > 600){
     scroll.classList.add('show')
   } else{
     scroll.classList.remove('show')
