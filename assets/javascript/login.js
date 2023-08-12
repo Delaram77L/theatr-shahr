@@ -1,3 +1,9 @@
+// Clock
+setInterval(() =>{
+  let d = new Date();
+  document.getElementById('date').innerText = d.toLocaleDateString('fa-IR');
+}, 1000)
+
 
 // online & offline
 let el = document.createElement('div');
